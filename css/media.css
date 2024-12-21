@@ -1,0 +1,268 @@
+@media screen and (max-width: 1399.98px) {
+	.container {
+		width: 1140px;
+	}
+
+	.dashboard_item {
+		margin-left: 0;
+	}
+
+	.hello {
+		margin-left: 0;
+	}
+
+	.customers__scrool {
+		width: 831px;
+		margin-left: 0;
+		padding: 30px 30px 30px;
+	}
+
+	.customers__all_one.info::before {
+		margin-left: -30px;
+	}
+
+	.customers__all_one .name {
+		width: 120px;
+		overflow: hidden;
+	}
+
+	.customers__all_one .company {
+		width: 70px;
+		overflow: hidden;
+	}
+
+	.customers__all_one .phone {
+		width: 115px;
+		overflow: hidden;
+	}
+
+	.customers__all_one .email {
+		width: 160px;
+		overflow: hidden;
+	}
+
+	.customers__all_one .country {
+		width: 100px;
+		overflow: hidden;
+	}
+	.customers__all_one {
+		justify-content: space-between;
+	}
+
+	.customers__all_one.info::before {
+		width: 831px;
+	}
+
+	.person {
+		margin-top: 0;
+	}
+}
+
+@media screen and (max-width: 1199.98px) {
+	.container {
+		width: 960px;
+	}
+
+	header {
+		padding: 25px 0;
+	}
+
+	.dashboard_item {
+		position: relative;
+	}
+
+	.hello {
+		margin-top: 40px;
+	}
+
+	.customers__scrool {
+		width: 100%;
+		margin-top: 20px;
+		padding: 30px 40px 40px;
+	}
+
+	.customers__all_one.info::before {
+		width: 936px;
+		margin-left: -40px;
+	}
+}
+
+@media screen and (max-width: 991.98px) {
+	.container {
+		max-width: 720px;
+	}
+
+	.menu-collapse {
+		margin-left: 95px;
+	}
+
+	.customers__scrool {
+		width: 100%;
+		padding: 20px;
+		border-radius: 20px;
+	}
+
+	.customers__all {
+		overflow: scroll;
+		width: 100%;
+	}
+
+	.customers__all_one {
+		width: 968px;
+	}
+
+	.customers__all_one.info::before {
+		width: 968px;
+		margin-left: 0;
+	}
+}
+
+@media screen and (max-width: 767.98px) {
+	.container {
+		max-width: 540px;
+	}
+
+	.menu-collapse {
+        margin-left: 8px;
+    }
+
+	.customers__all_down p {
+		text-align: center;
+		margin-bottom: 20px;
+	}
+
+	.customers__all_down .page {
+		justify-content: center;
+	}
+}
+
+@media screen and (max-width: 575.98px) {
+	.container {
+		max-width: 400px;
+	}
+
+	.menu-collapse {
+		margin-left: -62px;
+	}
+
+	.hello {
+		margin-top: 30px;
+		text-align: center;
+	}
+
+	.customers .text {
+		text-align: center;
+	}
+
+	.form-item {
+		width: 100%;
+		margin-top: 20px;
+	}
+
+	.form__input {
+		width: 100%;
+	}
+
+	.customers__all {
+		overflow: unset;
+	}
+
+	.customers__all_one {
+		justify-content: flex-start;
+		width: 100%;
+	}
+
+	.customers__all_one.info::before {
+		width: 376px;
+		margin-left: -20px;
+	}
+
+	.customers__all {
+		margin-top: 20px;
+	}
+
+	.customers__all_one.info {
+		padding: 0 0 10px;
+	}
+
+	.customers__all_one {
+		padding: 10px 0;
+	}
+
+	.open-info {
+		justify-content: space-between;
+	}
+
+	.open-info .arrow {
+	    width: 10px;
+	    height: 10px;
+	    border-top: 3px #9197B3 solid;
+	    border-right: 3px #9197B3 solid;
+	    transform: rotate(135deg);
+	    margin-top: 5px;
+	}
+
+	.open-info .arrow.active {
+		transform: rotate(-45deg);
+	}
+
+	.customers__all-collapse {
+		display: none;
+	}
+
+	.customers__all_one .customers__all-collapse_one {
+		margin-top: 10px;
+		align-items: center;
+	}
+
+	.customers__all_one .customers__all-collapse_one p {
+		width: 168px;
+		margin-right: 0;
+		overflow: hidden;
+	}
+
+	.customers__all_one .customers__all-collapse_one .status {
+		height: 29px;
+		background: #FFC5C5;
+		color: #DF0404;
+		border: 1px #DF0404 solid;
+		border-radius: 4px;
+		justify-content: center;
+		align-items: center;
+		width: 80px;
+	}
+
+	.customers__all_one .customers__all-collapse_one .status.active {
+		background: rgba(22, 192, 152, 0.38);
+	    color: #008767;
+	    border: 1px #00B087 solid;
+	}
+}
+
+@media screen and (max-width: 409.98px) {
+	.container {
+		max-width: 320px;
+	}
+
+
+	.menu-collapse {
+		margin-left: -102px;
+	}
+
+	.customers__all_one.info::before {
+		width: 296px;
+	}
+
+	.customers__all-collapse {
+		overflow: scroll;
+	}
+
+	.customers__all_one .customers__all-collapse_one {
+		width: 286px;
+	}
+
+	.customers__all_one .customers__all-collapse_one p {
+		width: 125px;
+		overflow: unset;
+	}
+}
